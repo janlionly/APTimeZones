@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271864562303EA570053BC91 /* APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = 271864542303EA570053BC91 /* APTimeZones.m */; };
+		2718645C2303EB080053BC91 /* NSTimeZone+CountryCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2718645B2303EB080053BC91 /* NSTimeZone+CountryCode.m */; };
+		271864662303EEBB0053BC91 /* JLTimeZoneCountry.h in Headers */ = {isa = PBXBuildFile; fileRef = 271864642303EEBB0053BC91 /* JLTimeZoneCountry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		271864692303EEBB0053BC91 /* JLTimeZoneCountry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271864622303EEBA0053BC91 /* JLTimeZoneCountry.framework */; };
+		2718646A2303EEBB0053BC91 /* JLTimeZoneCountry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 271864622303EEBA0053BC91 /* JLTimeZoneCountry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2718646F2303F0120053BC91 /* APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = 271864542303EA570053BC91 /* APTimeZones.m */; };
+		271864702303F0120053BC91 /* NSTimeZone+CountryCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2718645B2303EB080053BC91 /* NSTimeZone+CountryCode.m */; };
+		271864712303F0120053BC91 /* CLPlacemark+APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = A717985B1830D59400E857F4 /* CLPlacemark+APTimeZones.m */; };
+		271864722303F0120053BC91 /* CLLocation+APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = A717985E1830D5E000E857F4 /* CLLocation+APTimeZones.m */; };
+		271864732303F0250053BC91 /* timezonesDB.json in Resources */ = {isa = PBXBuildFile; fileRef = A717984B1830CE6E00E857F4 /* timezonesDB.json */; };
+		271864742303F03A0053BC91 /* APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 271864552303EA570053BC91 /* APTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		271864752303F03A0053BC91 /* NSTimeZone+CountryCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2718645A2303EB080053BC91 /* NSTimeZone+CountryCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		271864762303F03A0053BC91 /* CLPlacemark+APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = A717985A1830D59400E857F4 /* CLPlacemark+APTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		271864772303F03A0053BC91 /* CLLocation+APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = A717985D1830D5E000E857F4 /* CLLocation+APTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A71798141830CE5100E857F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798131830CE5100E857F4 /* Foundation.framework */; };
 		A71798161830CE5100E857F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798151830CE5100E857F4 /* CoreGraphics.framework */; };
 		A71798181830CE5100E857F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798171830CE5100E857F4 /* UIKit.framework */; };
@@ -21,7 +35,6 @@
 		A71798351830CE5100E857F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798171830CE5100E857F4 /* UIKit.framework */; };
 		A717983D1830CE5100E857F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A717983B1830CE5100E857F4 /* InfoPlist.strings */; };
 		A717983F1830CE5100E857F4 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A717983E1830CE5100E857F4 /* ExampleTests.m */; };
-		A717984C1830CE6E00E857F4 /* APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = A717984A1830CE6E00E857F4 /* APTimeZones.m */; };
 		A717984D1830CE6E00E857F4 /* timezonesDB.json in Resources */ = {isa = PBXBuildFile; fileRef = A717984B1830CE6E00E857F4 /* timezonesDB.json */; };
 		A717984F1830D02100E857F4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A717984E1830D02100E857F4 /* MapKit.framework */; };
 		A71798521830D04300E857F4 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71798511830D04300E857F4 /* MapViewController.m */; };
@@ -32,6 +45,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		271864672303EEBB0053BC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71798081830CE5100E857F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 271864612303EEBA0053BC91;
+			remoteInfo = JLTimeZoneCountry;
+		};
 		A71798361830CE5100E857F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A71798081830CE5100E857F4 /* Project object */;
@@ -41,7 +61,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2718646E2303EEBB0053BC91 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2718646A2303EEBB0053BC91 /* JLTimeZoneCountry.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		271864542303EA570053BC91 /* APTimeZones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTimeZones.m; sourceTree = "<group>"; };
+		271864552303EA570053BC91 /* APTimeZones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTimeZones.h; sourceTree = "<group>"; };
+		2718645A2303EB080053BC91 /* NSTimeZone+CountryCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimeZone+CountryCode.h"; sourceTree = "<group>"; };
+		2718645B2303EB080053BC91 /* NSTimeZone+CountryCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimeZone+CountryCode.m"; sourceTree = "<group>"; };
+		271864622303EEBA0053BC91 /* JLTimeZoneCountry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLTimeZoneCountry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		271864642303EEBB0053BC91 /* JLTimeZoneCountry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTimeZoneCountry.h; sourceTree = "<group>"; };
+		271864652303EEBB0053BC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A71798101830CE5100E857F4 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71798131830CE5100E857F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A71798151830CE5100E857F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,8 +102,6 @@
 		A717983A1830CE5100E857F4 /* ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		A717983C1830CE5100E857F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A717983E1830CE5100E857F4 /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
-		A71798491830CE6E00E857F4 /* APTimeZones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTimeZones.h; sourceTree = "<group>"; };
-		A717984A1830CE6E00E857F4 /* APTimeZones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTimeZones.m; sourceTree = "<group>"; };
 		A717984B1830CE6E00E857F4 /* timezonesDB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timezonesDB.json; sourceTree = "<group>"; };
 		A717984E1830D02100E857F4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A71798501830D04300E857F4 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
@@ -77,10 +116,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2718645F2303EEBA0053BC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A717980D1830CE5100E857F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271864692303EEBB0053BC91 /* JLTimeZoneCountry.framework in Frameworks */,
 				A71798541830D16400E857F4 /* CoreLocation.framework in Frameworks */,
 				A717984F1830D02100E857F4 /* MapKit.framework in Frameworks */,
 				A71798161830CE5100E857F4 /* CoreGraphics.framework in Frameworks */,
@@ -102,11 +149,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		271864632303EEBB0053BC91 /* JLTimeZoneCountry */ = {
+			isa = PBXGroup;
+			children = (
+				271864642303EEBB0053BC91 /* JLTimeZoneCountry.h */,
+				271864652303EEBB0053BC91 /* Info.plist */,
+			);
+			path = JLTimeZoneCountry;
+			sourceTree = "<group>";
+		};
 		A71798071830CE5100E857F4 = {
 			isa = PBXGroup;
 			children = (
 				A71798191830CE5100E857F4 /* Example */,
 				A71798381830CE5100E857F4 /* ExampleTests */,
+				271864632303EEBB0053BC91 /* JLTimeZoneCountry */,
 				A71798121830CE5100E857F4 /* Frameworks */,
 				A71798111830CE5100E857F4 /* Products */,
 			);
@@ -117,6 +174,7 @@
 			children = (
 				A71798101830CE5100E857F4 /* Example.app */,
 				A71798311830CE5100E857F4 /* ExampleTests.xctest */,
+				271864622303EEBA0053BC91 /* JLTimeZoneCountry.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,7 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				A71798581830D38700E857F4 /* ViewControllers */,
-				A71798481830CE6E00E857F4 /* APTimeZones */,
+				A71798481830CE6E00E857F4 /* TimeZones */,
 				A71798221830CE5100E857F4 /* AppDelegate.h */,
 				A71798231830CE5100E857F4 /* AppDelegate.m */,
 				A71798251830CE5100E857F4 /* Main.storyboard */,
@@ -177,16 +235,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A71798481830CE6E00E857F4 /* APTimeZones */ = {
+		A71798481830CE6E00E857F4 /* TimeZones */ = {
 			isa = PBXGroup;
 			children = (
+				271864552303EA570053BC91 /* APTimeZones.h */,
+				271864542303EA570053BC91 /* APTimeZones.m */,
 				A71798591830D57B00E857F4 /* Categories */,
-				A71798491830CE6E00E857F4 /* APTimeZones.h */,
-				A717984A1830CE6E00E857F4 /* APTimeZones.m */,
 				A717984B1830CE6E00E857F4 /* timezonesDB.json */,
 			);
-			name = APTimeZones;
-			path = ../../APTimeZones;
+			name = TimeZones;
+			path = ../../TimeZones;
 			sourceTree = "<group>";
 		};
 		A71798581830D38700E857F4 /* ViewControllers */ = {
@@ -205,6 +263,8 @@
 		A71798591830D57B00E857F4 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				2718645A2303EB080053BC91 /* NSTimeZone+CountryCode.h */,
+				2718645B2303EB080053BC91 /* NSTimeZone+CountryCode.m */,
 				A717985A1830D59400E857F4 /* CLPlacemark+APTimeZones.h */,
 				A717985B1830D59400E857F4 /* CLPlacemark+APTimeZones.m */,
 				A717985D1830D5E000E857F4 /* CLLocation+APTimeZones.h */,
@@ -215,7 +275,40 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2718645D2303EEBA0053BC91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271864662303EEBB0053BC91 /* JLTimeZoneCountry.h in Headers */,
+				271864742303F03A0053BC91 /* APTimeZones.h in Headers */,
+				271864752303F03A0053BC91 /* NSTimeZone+CountryCode.h in Headers */,
+				271864762303F03A0053BC91 /* CLPlacemark+APTimeZones.h in Headers */,
+				271864772303F03A0053BC91 /* CLLocation+APTimeZones.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		271864612303EEBA0053BC91 /* JLTimeZoneCountry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2718646B2303EEBB0053BC91 /* Build configuration list for PBXNativeTarget "JLTimeZoneCountry" */;
+			buildPhases = (
+				2718645D2303EEBA0053BC91 /* Headers */,
+				2718645E2303EEBA0053BC91 /* Sources */,
+				2718645F2303EEBA0053BC91 /* Frameworks */,
+				271864602303EEBA0053BC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLTimeZoneCountry;
+			productName = JLTimeZoneCountry;
+			productReference = 271864622303EEBA0053BC91 /* JLTimeZoneCountry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A717980F1830CE5100E857F4 /* Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A71798421830CE5100E857F4 /* Build configuration list for PBXNativeTarget "Example" */;
@@ -223,10 +316,12 @@
 				A717980C1830CE5100E857F4 /* Sources */,
 				A717980D1830CE5100E857F4 /* Frameworks */,
 				A717980E1830CE5100E857F4 /* Resources */,
+				2718646E2303EEBB0053BC91 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				271864682303EEBB0053BC91 /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -260,6 +355,15 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Alterplay;
 				TargetAttributes = {
+					271864612303EEBA0053BC91 = {
+						CreatedOnToolsVersion = 10.3;
+						DevelopmentTeam = A73XC757VV;
+						ProvisioningStyle = Automatic;
+					};
+					A717980F1830CE5100E857F4 = {
+						DevelopmentTeam = A73XC757VV;
+						ProvisioningStyle = Manual;
+					};
 					A71798301830CE5100E857F4 = {
 						TestTargetID = A717980F1830CE5100E857F4;
 					};
@@ -270,6 +374,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,11 +385,20 @@
 			targets = (
 				A717980F1830CE5100E857F4 /* Example */,
 				A71798301830CE5100E857F4 /* ExampleTests */,
+				271864612303EEBA0053BC91 /* JLTimeZoneCountry */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		271864602303EEBA0053BC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271864732303F0250053BC91 /* timezonesDB.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A717980E1830CE5100E857F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +421,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2718645E2303EEBA0053BC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2718646F2303F0120053BC91 /* APTimeZones.m in Sources */,
+				271864702303F0120053BC91 /* NSTimeZone+CountryCode.m in Sources */,
+				271864712303F0120053BC91 /* CLPlacemark+APTimeZones.m in Sources */,
+				271864722303F0120053BC91 /* CLLocation+APTimeZones.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A717980C1830CE5100E857F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,9 +441,10 @@
 				A71798521830D04300E857F4 /* MapViewController.m in Sources */,
 				A71798201830CE5100E857F4 /* main.m in Sources */,
 				A71798571830D37D00E857F4 /* GeoCoderViewController.m in Sources */,
+				2718645C2303EB080053BC91 /* NSTimeZone+CountryCode.m in Sources */,
 				A717985F1830D5E000E857F4 /* CLLocation+APTimeZones.m in Sources */,
 				A717985C1830D59400E857F4 /* CLPlacemark+APTimeZones.m in Sources */,
-				A717984C1830CE6E00E857F4 /* APTimeZones.m in Sources */,
+				271864562303EA570053BC91 /* APTimeZones.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +459,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		271864682303EEBB0053BC91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 271864612303EEBA0053BC91 /* JLTimeZoneCountry */;
+			targetProxy = 271864672303EEBB0053BC91 /* PBXContainerItemProxy */;
+		};
 		A71798371830CE5100E857F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A717980F1830CE5100E857F4 /* Example */;
@@ -368,6 +499,104 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2718646C2303EEBB0053BC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A73XC757VV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = JLTimeZoneCountry/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janlion.JLTimeZoneCountry;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2718646D2303EEBB0053BC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = JLTimeZoneCountry/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janlion.JLTimeZoneCountry;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A71798401830CE5100E857F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -445,10 +674,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A73XC757VV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.janlion.timezonesexample.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = JustForTestID2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -458,10 +693,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.janlion.timezonesexample.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -511,6 +752,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2718646B2303EEBB0053BC91 /* Build configuration list for PBXNativeTarget "JLTimeZoneCountry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2718646C2303EEBB0053BC91 /* Debug */,
+				2718646D2303EEBB0053BC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A717980B1830CE5100E857F4 /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -527,6 +777,7 @@
 				A71798441830CE5100E857F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A71798451830CE5100E857F4 /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +786,7 @@
 				A71798471830CE5100E857F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

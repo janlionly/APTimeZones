@@ -8,6 +8,7 @@
 
 #import "MapViewController.h"
 #import "APTimeZones.h"
+#import "NSTimeZone+CountryCode.h"
 
 @implementation MapViewController
 
@@ -16,7 +17,7 @@
     
     CLLocation *location = [[CLLocation alloc] initWithLatitude:mapView.centerCoordinate.latitude
                                                       longitude:mapView.centerCoordinate.longitude];
-    self.timeZoneLabel.text = location.timeZone.description;
+    self.timeZoneLabel.text = [location.timeZone countryCode];
 }
 
 @end

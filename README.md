@@ -2,6 +2,13 @@ An utility for iOS and OSX developers to simplify extracting NSTimeZone from a g
 
 You can do the same job by calling [Google API](https://developers.google.com/maps/documentation/timezone/) or [Yahoo API](http://help.yahoo.com/l/us/yahoo/ewsapt/webservices/reference/overview/wsr_timezones.html) but APTimeZones works locally, offline and with no limits inherented to hosted solutions.
 
+#### Carthage
+
+```ruby
+platform :ios, '8.0'
+github "janlionly/APTimeZones" "master"
+```
+
 ### Usage:
 
 ```objc
