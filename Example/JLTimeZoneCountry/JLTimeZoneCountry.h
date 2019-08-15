@@ -14,7 +14,7 @@ FOUNDATION_EXPORT double JLTimeZoneCountryVersionNumber;
 //! Project version string for JLTimeZoneCountry.
 FOUNDATION_EXPORT const unsigned char JLTimeZoneCountryVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <JLTimeZoneCountry/PublicHeader.h>
+ In this header, you should import all the public headers of your framework using statements like #import <JLTimeZoneCountry/PublicHeader.h>
 #if __has_include("APTimeZones.h")
 #import <JLTimeZoneCountry/APTimeZones.h>
 #endif

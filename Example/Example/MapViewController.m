@@ -12,6 +12,12 @@
 
 @implementation MapViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSString *zone = [NSTimeZone countryCodeFromLocalizedName];
+    NSLog(@"----%@", zone);
+}
+
 #pragma mark - MapView Delegates
 - (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
     
